@@ -1,0 +1,28 @@
+#  Local .terraform directories
+**/.terraform/*
+
+# plan files
+terraform.plan
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# .tfvars files
+*.tfvars
+
+# .DS_Store
+.DS_Store
+
+# credetnials
+account.json
+.kubeconfig
+.spinnaker-values.yaml
+.cluster_ca_certificate
+.client_certificate
+.client_key
+
+# IDEA
+.idea
+*.iml
+
